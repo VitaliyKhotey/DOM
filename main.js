@@ -19,8 +19,8 @@
 				content = d.createTextNode(input.value);
 
 			newLi.appendChild(content);
-
 			ul.appendChild(newLi);
+			
 			input.value = "";
 
 			return false;
