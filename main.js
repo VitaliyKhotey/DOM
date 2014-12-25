@@ -27,7 +27,9 @@
 		}
 
 		selectFirst.onclick = function() {
-			var liLast = ul.lastChild;
+			var liLast = ul.lastChild,
+			liFirst = ul.firstChild.nextSibling;
+			
 			liFirst.style.color = "red";
 
 			if (liLast.style.color == "green") {
